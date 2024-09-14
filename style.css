@@ -1,0 +1,111 @@
+body {
+  background-color: mistyrose;
+  font-family: Arial, Helvetica, sans-serif;
+  color: mediumvioletred;
+  margin:0px ;
+  font-size: 2vw;
+
+  }
+
+  h1{
+    margin: 0vw;
+  }
+ 
+  ul{
+    margin: 0px;
+  }
+
+  body > header {
+  background-color: rgb(221, 138, 221); 
+  display: flex;
+  height: 13vh; 
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  padding:5px ;
+
+  color: white
+}
+
+#nav-ul {
+  display: flex 
+}
+ 
+#nav-ul > li {
+padding: 8px;
+margin:16px ;
+}
+
+body > header > nav > ul{
+  list-style: none;
+  text-decoration: none;
+ }
+
+ #Fitness {
+  display: flex;
+  margin: auto;
+  display: inline-flex;
+  font-variant: small-caps;
+  font-size: 2vw
+  
+  
+ }
+.navbutton{
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border:1px solid white ;
+}
+
+ body > footer {
+  background-color: rgb(221, 138, 221);;
+  color: ghostwhite;
+  display: flex;
+
+ }
+
+ body > main article{
+  width: 80%;
+  margin: auto;
+ }
+
+ #main-content{
+  display: flex;
+ }
+
+
+#main-content > div {
+  width: 80%;
+  justify-content: space-around;
+}
+
+ header {
+  color: mediumvioletred;
+ }
+
+ img{
+  border-radius: 50px;
+ }
+
+ form{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+ 
+ #footer-ul{
+  display: flex;
+  list-style: none;
+ }
+
+ #footer-ul > div > li{
+  margin-left: 13px;
+ }
+  
+ #footer-ul > div > li >a{
+  text-decoration: none;
+  color: white;
+ }
+  
